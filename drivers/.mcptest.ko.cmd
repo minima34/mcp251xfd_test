@@ -1,0 +1,1 @@
+cmd_drivers/mcptest/mcptest.ko := /home/szbaijie/workspace/a133/longan2/out/gcc-linaro-5.3.1-2016.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/mcptest/mcptest.ko drivers/mcptest/mcptest.o drivers/mcptest/mcptest.mod.o ;  true

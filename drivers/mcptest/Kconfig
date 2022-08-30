@@ -1,0 +1,8 @@
+# SPDX-License-Identifier: GPL-2.0-only
+
+config CAN_MCPTEST
+	tristate "Microchip MCP251xFD TEST DRIVER"
+	select REGMAP
+	help
+	  Driver for testing the Microchip MCP251XFD SPI FD-CAN controller
+	  family.
